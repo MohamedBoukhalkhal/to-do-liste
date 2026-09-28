@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-doliste</title>
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="icon" href="image/0x0.webp">
+</head>
+<body>
+    <div id="tete">
+        <h1>📝 Ma Todo Liste</h1>
+    </div>
+    <div id="container">
+        <div id="liste">
+            <input type="text" id="display" placeholder="Ajouter une tache">
+            <button id="ajout" onclick="add()">Ajouter</button>
+        </div>
+        <div id="affichage">
+            <button onclick="afficher()">Afficher la liste</button>
+            <button onclick="masquer()">Masquer la liste</button>
+        
+            <ul id="tacklist"></ul>
+
+        </div>
+    </div>
+    
+    <script src="script/script.js"></script>
+</body>
+</html>

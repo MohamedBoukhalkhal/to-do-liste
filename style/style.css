@@ -1,0 +1,97 @@
+#tete{
+    text-align: center;
+    background-color: white;
+    padding: 10px;
+}
+h1{
+    text-align:center;
+    color:#2563EB;
+    margin-bottom:30px;
+    font-family: "Poppins", sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+#container{
+    width:550px;
+    margin:60px auto;
+    background:white;
+    padding:25px;
+    border-radius:15px;
+    box-shadow:0 10px 25px rgba(0,0,0,.15);
+}
+
+
+#display{
+    width:75%;
+    padding:12px;
+    border-radius:8px;
+    border:2px solid #ddd;
+    font-size:17px;
+}
+
+#display:focus{
+    outline:none;
+    border-color:#2563EB;
+}
+
+button{
+    background:#2563EB;
+    color:white;
+    border:none;
+    padding:12px 18px;
+    border-radius:8px;
+    cursor:pointer;
+    transition:.3s;
+}
+
+
+button:hover{
+    background:#1E40AF;
+    transform:scale(1.05);
+}
+
+.btn-check{
+    cursor: pointer;
+    transition: .3s;
+}
+
+.btn-check:hover{
+    background-color: green;
+}
+
+.btn-delete{
+    cursor: pointer;
+    transition: .3s;
+}
+
+.btn-delete:hover{
+    background-color: red;
+}
+
+
+#taklist{
+    list-style:none;
+    padding:0;
+}
+
+#tacklist li{
+    background:#f9fafb;
+    margin-top:15px;
+    padding:15px;
+    border-radius:10px;
+    box-shadow:0 3px 8px rgba(0,0,0,.1);
+}
+
+body{
+    margin:0;
+    font-family:Arial, Helvetica, sans-serif;
+    background:#f3f4f6;
+}
+
+
+#ajout{
+    display:flex;
+    gap:10px;
+    margin-top:20px;
+}
