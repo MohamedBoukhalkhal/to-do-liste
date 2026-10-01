@@ -39,6 +39,11 @@ function add(){
    
 
 }
+display.addEventListener("keydown", function(event) {
+    if (event.key === "Enter") {
+        add();
+    }
+});
 
 
 
